@@ -8,7 +8,7 @@
 // Date: 23-02-2024
 // Description: This program retrives a famous quote from Albert Einstein and prints it.
 let auther : string = "Albert Einstein said, ";
-let quote : string = "A person who never made mistake never tried any thing new.";
+let quote : string = '"A person who never made mistake never tried any thing new."';
 console.log(auther+quote);
 console.log("--------------------------------------------------------------------");
 
