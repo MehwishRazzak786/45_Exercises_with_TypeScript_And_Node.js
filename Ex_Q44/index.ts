@@ -5,11 +5,11 @@
 
 // Define a function with rest parameters that accepts items arguments representing  sandwitch
   
-function make_sandwich(items: string[]) {
+function make_sandwich(...items: string[]) {
     console.log(`You ordered a sandwich with ${items.join(', ')}. Enjoy your sandwitch!\n`);
 }
 
 // call the function 3 times with 3 different number of arguments
-make_sandwich(['bread', 'cheese', 'lettuce','sauces']);
-make_sandwich(['bread','butter','chicken','egg','mayo','ketchup','cheddar cheese']);
-make_sandwich(['bread','mustard','mayo','avocado','meat']);
+make_sandwich('bread', 'cheese', 'lettuce','sauces');
+make_sandwich('bread','butter','chicken','egg','mayo','ketchup','cheddar cheese');
+make_sandwich('bread','mustard','mayo','avocado','meat');
